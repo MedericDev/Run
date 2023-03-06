@@ -1,83 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/32cf930484.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>Run</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Run</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link rel="stylesheet" href="assets/style/style.css" />
 </head>
+
 <body>
-    <main>
-        <section class="header-content">
-            <div class="left-header">
-                <div class="card-text">
-                    <h1>Run</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia et, reiciendis aliquam voluptates ut soluta quos sint porro rem quo?</p>
-                    <button>Get started</button>
-                </div>
-            </div>
-            <img src="./assets/banner.jpg" alt="">
-        </section>
-        <section class="main-content">
-            <img src="./assets/img-left.jpg" alt="">
-            <div class="right_main">
-                <div class="card-text-main">
-                    <h2>Magna etiam feugiat</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia et, reiciendis aliquam voluptates ut soluta quos sint porro rem quo?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia et, reiciendis aliquam voluptates ut soluta quos sint porro rem quo?
-                    </p>
-                    <button>Learn more</button>
-                </div>
-            </div> 
-        </section>
-        <section class="footer">
-            <div class="left-footer">
-                <div class="card-text-footer">
-                    <h2>Tempus adipiscing</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia et, reiciendis aliquam voluptates ut soluta quos sint porro rem quo?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia et, reiciendis aliquam voluptates ut soluta quos sint porro rem quo?
-                    </p>
-                    <button>Learn more</button>
-                </div>
-            </div>
-            <div class="img-footer">
-                <img src="./assets/img-right.jpg" alt="">
-            </div>
-        </section>
-        <div class="formulaire">
-            <form action="">
-                <h3>Get in touch</h3>
-                <div class="test1">
-                    <label for="name">Name</label>
-                    <br>
-                    <input type="text" name="name">
-                </div>
-                <br>
-                <div class="test2">
-                    <label for="email">Email</label>
-                    <br>
-                    <input type="email">
-                </div>
-                <div class="test3">
-                    <label for="message">Message</label>
-                    <br>
-                    <textarea name="message" id="" cols="100" rows="10"></textarea>
-                </div>
-                <button>Send Message</button>
-            </form>
+
+  <header>
+    <div class="container">
+      <div>
+        <h1>Run</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas rerum eveniet quidem non consectetur
+          repellendus
+          id sapiente ex recusandae sint.</p>
+        <a href="#" class="button">Get Started</a>
+      </div>
+    </div>
+    <div class="img-banner"></div>
+  </header>
+
+  <section class="section-1">
+    <div class="img"></div>
+    <div class="container">
+      <div>
+        <h2>Magna etiam feugiat</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel
+          massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium
+          massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
+        <a href="#" class="button">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-2">
+    <div class="container">
+      <div>
+        <h2>Tempus adipiscing</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel
+          massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium
+          massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
+        <a href="#" class="button">Learn More</a>
+      </div>
+    </div>
+    <div class="img"></div>
+  </section>
+
+  <section class="contact">
+    <h2>Get in touch</h2>
+    <form method="post" action="#">
+      <div class="form-grid">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" />
         </div>
-    </main>
-    <footer>
-        <div class="icon-footer">
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-linkedin-in"></i>
-            <i class="fa-regular fa-envelope"></i>
+        <div>
+          <label for="email">Email</label>
+          <input type="text" id="email" />
         </div>
-    </footer>
-    
+        <div class="textarea">
+          <label for="message">Message</label>
+          <textarea id="message"></textarea>
+        </div>
+      </div>
+      <input type="submit" class="button" value="Send Message" />
+    </form>
+  </section>
+
+  <footer>
+    <ul>
+      <li>
+        <a href="#">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="far fa-envelope"></i>
+        </a>
+      </li>
+    </ul>
+
+  </footer>
+
+
 </body>
+
 </html>

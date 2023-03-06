@@ -215,4 +215,10 @@ footer {
     border: 1px solid rgba(128, 128, 128, 0.589);
     border-radius: 100px;
     padding: 5px;
+    transition: .3s ease;
+}
+
+.icon-footer i:hover {
+    color: rgb(78, 161, 216);
+    border-color: rgb(78, 161, 216);
 }
